@@ -10,11 +10,8 @@ export default function Hero({ onExplore }) {
         style={{ backgroundImage: `url(${HERO_IMAGE})` }}
       />
 
-      {/* Dark overlay for readability */}
+      {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/40" />
-
-      {/* Ornamental top border — folk pattern accent */}
-      <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-transparent via-red-700 to-transparent opacity-80" />
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center text-center px-6 max-w-3xl mx-auto">
@@ -50,30 +47,25 @@ export default function Hero({ onExplore }) {
           Let us show you what you might be missing.
         </p>
 
-        {/* CTA button */}
+        {/* CTA button — no arrow, clean */}
         <button
           onClick={onExplore}
-          className="group flex items-center gap-3 bg-white text-green-900 font-semibold px-8 py-4 rounded-full
-                     hover:bg-green-900 hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl
-                     text-sm tracking-wide uppercase"
+          className="bg-white text-green-900 font-semibold px-8 py-4 rounded-full
+                     hover:bg-green-900 hover:text-white transition-all duration-300
+                     shadow-lg hover:shadow-xl text-sm tracking-wide uppercase"
           style={{ fontFamily: 'Manrope, sans-serif' }}>
           Start exploring
-          <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-          </svg>
         </button>
       </div>
 
       {/* Scroll hint */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-60">
-        <span className="text-white text-xs tracking-widest uppercase" style={{ fontFamily: 'Manrope, sans-serif' }}>
+        <span className="text-white text-xs tracking-widest uppercase"
+              style={{ fontFamily: 'Manrope, sans-serif' }}>
           Scroll
         </span>
         <div className="w-px h-8 bg-white animate-pulse" />
       </div>
-
-      {/* Ornamental bottom border */}
-      <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-transparent via-red-700 to-transparent opacity-60" />
     </section>
   )
 }

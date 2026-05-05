@@ -32,10 +32,10 @@ export default function PlaceCard({ place, onClick }) {
         />
         {/* Hidden gem badge */}
         {place.hidden_gem && (
-          <div className="absolute top-3 right-3 bg-red-700 text-white text-xs font-semibold
+          <div className="absolute top-3 right-3 bg-teal-500 text-white text-xs font-semibold
                           px-2.5 py-1 rounded-full flex items-center gap-1 shadow"
                style={{ fontFamily: 'Manrope, sans-serif' }}>
-            <span>✦</span> Hidden gem
+            <span>◆</span> Hidden gem
           </div>
         )}
       </div>
