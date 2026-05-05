@@ -1,13 +1,6 @@
 import './index.css'
+import Landing from './pages/Landing'
 
-function App() {
-  return (
-    <div>
-      <p style={{ padding: '2rem', fontFamily: 'Manrope, sans-serif' }}>
-        Padarozha — scaffold ready ✓
-      </p>
-    </div>
-  )
+export default function App() {
+  return <Landing />
 }
-
-export default App
