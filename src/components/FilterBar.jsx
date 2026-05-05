@@ -1,7 +1,7 @@
 const CATEGORIES = [
   { id: 'all',       label: 'All places', activeClass: 'bg-green-800 text-white'  },
   { id: 'nature',    label: 'Nature',     activeClass: 'bg-green-700 text-white'  },
-  { id: 'history',   label: 'History',    activeClass: 'bg-amber-700 text-white'  },
+  { id: 'history',   label: 'History',    activeClass: 'bg-blue-600 text-white'  },
   { id: 'culture',   label: 'Culture',    activeClass: 'bg-purple-700 text-white' },
   { id: 'adventure', label: 'Adventure',  activeClass: 'bg-orange-600 text-white' },
 ]

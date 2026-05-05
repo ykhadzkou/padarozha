@@ -1,6 +1,6 @@
 const CATEGORY_STYLES = {
   nature:    { bg: 'bg-green-100',  text: 'text-green-800',  label: 'Nature'    },
-  history:   { bg: 'bg-amber-100',  text: 'text-amber-800',  label: 'History'   },
+  history:   { bg: 'bg-blue-100',   text: 'text-blue-700',  label: 'History'   },
   culture:   { bg: 'bg-purple-100', text: 'text-purple-800', label: 'Culture'   },
   adventure: { bg: 'bg-orange-100', text: 'text-orange-700', label: 'Adventure' },
 }
