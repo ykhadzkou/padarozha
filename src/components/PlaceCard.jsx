@@ -2,7 +2,7 @@ const CATEGORY_STYLES = {
   nature:    { bg: 'bg-green-100',  text: 'text-green-800',  label: 'Nature'    },
   history:   { bg: 'bg-amber-100',  text: 'text-amber-800',  label: 'History'   },
   culture:   { bg: 'bg-purple-100', text: 'text-purple-800', label: 'Culture'   },
-  adventure: { bg: 'bg-teal-100',   text: 'text-teal-800',   label: 'Adventure' },
+  adventure: { bg: 'bg-orange-100', text: 'text-orange-700', label: 'Adventure' },
 }
 
 const PLACEHOLDER_IMAGES = {
@@ -23,14 +23,12 @@ export default function PlaceCard({ place, onClick }) {
       className="group cursor-pointer rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-md
                  transition-all duration-300 hover:-translate-y-1 border border-gray-100"
     >
-      {/* Image */}
       <div className="relative h-48 overflow-hidden">
         <img
           src={image}
           alt={place.name}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
-        {/* Hidden gem badge */}
         {place.hidden_gem && (
           <div className="absolute top-3 right-3 bg-teal-500 text-white text-xs font-semibold
                           px-2.5 py-1 rounded-full flex items-center gap-1 shadow"
@@ -40,14 +38,13 @@ export default function PlaceCard({ place, onClick }) {
         )}
       </div>
 
-      {/* Content */}
       <div className="p-4">
-        {/* Categories */}
         <div className="flex flex-wrap gap-1.5 mb-2">
           {place.categories.map(cat => {
             const s = CATEGORY_STYLES[cat] || style
             return (
-              <span key={cat} className={`text-xs font-medium px-2.5 py-0.5 rounded-full ${s.bg} ${s.text}`}
+              <span key={cat}
+                    className={`text-xs font-medium px-2.5 py-0.5 rounded-full ${s.bg} ${s.text}`}
                     style={{ fontFamily: 'Manrope, sans-serif' }}>
                 {s.label}
               </span>
@@ -55,24 +52,22 @@ export default function PlaceCard({ place, onClick }) {
           })}
         </div>
 
-        {/* Name */}
         <h3 className="font-semibold text-gray-900 text-base leading-snug mb-1"
             style={{ fontFamily: 'Playfair Display, serif' }}>
           {place.name}
         </h3>
 
-        {/* Region */}
         <p className="text-xs text-gray-400 mb-3 flex items-center gap-1"
            style={{ fontFamily: 'Manrope, sans-serif' }}>
           <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                   d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
           </svg>
           {place.region}
         </p>
 
-        {/* Description */}
         <p className="text-sm text-gray-600 leading-relaxed line-clamp-3"
            style={{ fontFamily: 'Manrope, sans-serif' }}>
           {place.description}
