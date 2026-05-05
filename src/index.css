@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Manrope:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --forest: #2D4A2D;
+  --lake: #2B5F7A;
+  --birch: #F5F0E8;
+  --bark: #8B6F4E;
+  --mist: #E8EDE8;
+  --night: #1A1F1A;
+  --red-folk: #C0392B;
+  --white-folk: #FAF8F3;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: var(--white-folk);
+  color: var(--night);
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}

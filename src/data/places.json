@@ -1,0 +1,366 @@
+[
+  {
+    "id": 1,
+    "name": "Kosava: Puslowski Palace & Kosciuszko Museum",
+    "region": "Brest Region",
+    "categories": ["history"],
+    "hidden_gem": false,
+    "description": "I always bring guests here when I want to show them that Belarus has stories worth a film — a neo-Gothic palace, a freedom fighter's birthplace, and a small town that carries all of it quietly.",
+    "practical": {
+      "best_season": "May–October",
+      "how_to_get_there": "By car from Brest (~100km). No direct public transport.",
+      "what_to_bring": "Comfortable walking shoes, camera."
+    },
+    "coordinates": { "lat": 52.7544, "lng": 25.1513 }
+  },
+  {
+    "id": 2,
+    "name": "Olman Swamps",
+    "region": "Brest Region",
+    "categories": ["adventure"],
+    "hidden_gem": true,
+    "description": "Most people I know have never heard of Olman — and that is exactly why I want you to go. This is Polesia at its most raw, where Belarus feels ancient and completely unhurried.",
+    "practical": {
+      "best_season": "April–June, September",
+      "how_to_get_there": "By car from Pinsk (~60km). Guide recommended.",
+      "what_to_bring": "Waterproof boots, insect repellent, layers."
+    },
+    "coordinates": { "lat": 51.9833, "lng": 27.1167 }
+  },
+  {
+    "id": 3,
+    "name": "Sporava Marsh",
+    "region": "Brest Region",
+    "categories": ["nature"],
+    "hidden_gem": true,
+    "description": "If you want to hear Belarus rather than see it, come to Sporava in the morning — the reeds, the birds, the stillness. It is one of those places that stays with you long after you leave.",
+    "practical": {
+      "best_season": "April–May, August–September",
+      "how_to_get_there": "By car from Bereza (~20km).",
+      "what_to_bring": "Binoculars, quiet footwear, layers."
+    },
+    "coordinates": { "lat": 52.4833, "lng": 25.1167 }
+  },
+  {
+    "id": 4,
+    "name": "Yelnya Mire",
+    "region": "Vitebsk Region",
+    "categories": ["nature"],
+    "hidden_gem": true,
+    "description": "Yelnya is over 9,000 years old and most Belarusians have never been — I want to change that. Walking across floating moss above dark peat water is unlike anything else this country offers.",
+    "practical": {
+      "best_season": "May–September",
+      "how_to_get_there": "By car from Miory (~12km). Visitor centre in town.",
+      "what_to_bring": "Waterproof boots, binoculars, insect repellent."
+    },
+    "coordinates": { "lat": 55.5833, "lng": 27.5167 }
+  },
+  {
+    "id": 5,
+    "name": "Polotsk Old Town & Saint Sophia Cathedral",
+    "region": "Vitebsk Region",
+    "categories": ["history"],
+    "hidden_gem": false,
+    "description": "If you want to understand where Belarus begins as a nation, start in Polotsk — this is where our statehood, our faith, and our identity were first shaped, and it never feels like a museum.",
+    "practical": {
+      "best_season": "Year-round",
+      "how_to_get_there": "Train or bus from Vitebsk (~100km) or Minsk (~260km).",
+      "what_to_bring": "Comfortable shoes for cobblestones."
+    },
+    "coordinates": { "lat": 55.4833, "lng": 28.7833 }
+  },
+  {
+    "id": 6,
+    "name": "Zdravnevo Estate Museum",
+    "region": "Vitebsk Region",
+    "categories": ["culture"],
+    "hidden_gem": false,
+    "description": "I love bringing people here because almost nobody expects to find Repin's estate in Belarus — it is quiet, personal, and it shows a side of our cultural history that deserves far more attention.",
+    "practical": {
+      "best_season": "May–October",
+      "how_to_get_there": "By car from Vitebsk (~18km).",
+      "what_to_bring": "Nothing special — just curiosity."
+    },
+    "coordinates": { "lat": 55.1167, "lng": 30.2333 }
+  },
+  {
+    "id": 7,
+    "name": "Druya & Bernardine Monastery Ensemble",
+    "region": "Vitebsk Region",
+    "categories": ["culture"],
+    "hidden_gem": true,
+    "description": "Druya sits at the edge of the country and feels like it belongs to several worlds at once — Belarusian, Polish, Jewish, Catholic. Come here if you want to feel how layered this land really is.",
+    "practical": {
+      "best_season": "May–October",
+      "how_to_get_there": "By car from Braslaw (~35km).",
+      "what_to_bring": "Camera, patience for small roads."
+    },
+    "coordinates": { "lat": 55.7833, "lng": 27.4667 }
+  },
+  {
+    "id": 8,
+    "name": "Turov Meadows",
+    "region": "Gomel Region",
+    "categories": ["nature"],
+    "hidden_gem": false,
+    "description": "Every spring this floodplain becomes one of the great birdwatching places in all of Eastern Europe — I find it hard to believe more people do not know about it, and I want you to be one of those who does.",
+    "practical": {
+      "best_season": "April–May for migration",
+      "how_to_get_there": "By car from Zhitkovichi (~30km).",
+      "what_to_bring": "Binoculars, waterproof footwear."
+    },
+    "coordinates": { "lat": 52.0667, "lng": 27.7333 }
+  },
+  {
+    "id": 9,
+    "name": "Turov",
+    "region": "Gomel Region",
+    "categories": ["culture"],
+    "hidden_gem": true,
+    "description": "Turov is one of those towns where you feel the weight of time — pilgrimage, river life, and old local traditions all woven together in a way that most Belarusian towns have long forgotten.",
+    "practical": {
+      "best_season": "Year-round",
+      "how_to_get_there": "By car from Zhitkovichi (~30km).",
+      "what_to_bring": "Comfortable shoes, open mind."
+    },
+    "coordinates": { "lat": 52.0667, "lng": 27.7167 }
+  },
+  {
+    "id": 10,
+    "name": "Yurovichi Archaeological Complex",
+    "region": "Gomel Region",
+    "categories": ["history"],
+    "hidden_gem": true,
+    "description": "People lived here 26,000 years ago — let that sink in. Yurovichi connects Belarus to a story far older than any castle or cathedral, and almost nobody talks about it.",
+    "practical": {
+      "best_season": "May–October",
+      "how_to_get_there": "By car from Kalinkovichi (~25km).",
+      "what_to_bring": "Curiosity and a good map."
+    },
+    "coordinates": { "lat": 52.1167, "lng": 29.9333 }
+  },
+  {
+    "id": 11,
+    "name": "Vetka Museum of Old Believer Culture",
+    "region": "Gomel Region",
+    "categories": ["culture"],
+    "hidden_gem": false,
+    "description": "For me it is one of the most distinctive museums in Belarus — when I was a child I often heard stories about Old Believers but never understood who they are. Now I want to share with you how they shaped this region's identity.",
+    "practical": {
+      "best_season": "Year-round",
+      "how_to_get_there": "By bus or car from Gomel (~24km).",
+      "what_to_bring": "Nothing special — the museum provides everything."
+    },
+    "coordinates": { "lat": 52.5667, "lng": 31.1667 }
+  },
+  {
+    "id": 12,
+    "name": "Krasny Bereg Estate & Memorial",
+    "region": "Mogilev Region",
+    "categories": ["history"],
+    "hidden_gem": false,
+    "description": "I have never left Krasny Bereg without feeling something — the elegance of the manor and the weight of the wartime memorial sit side by side in a way that is impossible to forget.",
+    "practical": {
+      "best_season": "May–October",
+      "how_to_get_there": "By car from Zhlobin (~25km).",
+      "what_to_bring": "Respectful clothing for the memorial."
+    },
+    "coordinates": { "lat": 52.8333, "lng": 30.1167 }
+  },
+  {
+    "id": 13,
+    "name": "Blue Krynica Spring",
+    "region": "Mogilev Region",
+    "categories": ["nature"],
+    "hidden_gem": false,
+    "description": "There is something about this spring that draws people back again and again — pilgrimage, folklore, and the simplest kind of natural beauty all in one place that feels genuinely sacred.",
+    "practical": {
+      "best_season": "Year-round",
+      "how_to_get_there": "By car from Mogilev (~40km).",
+      "what_to_bring": "A bottle to take water home."
+    },
+    "coordinates": { "lat": 53.6333, "lng": 30.7167 }
+  },
+  {
+    "id": 14,
+    "name": "Bychov Synagogue Area",
+    "region": "Mogilev Region",
+    "categories": ["history"],
+    "hidden_gem": true,
+    "description": "Bychov does not try to be polished — and that is why I find it so honest. Military history, Jewish heritage, and a town that is still figuring out its own story. Worth every minute.",
+    "practical": {
+      "best_season": "May–October",
+      "how_to_get_there": "By car or bus from Mogilev (~60km).",
+      "what_to_bring": "Camera, patience."
+    },
+    "coordinates": { "lat": 53.5167, "lng": 30.2333 }
+  },
+  {
+    "id": 15,
+    "name": "Chigirinskoye Reservoir",
+    "region": "Mogilev Region",
+    "categories": ["adventure"],
+    "hidden_gem": true,
+    "description": "I discovered this place looking for somewhere to SUP away from the usual spots — big open water, big sky, and almost nobody around. That is still the best way I can describe it.",
+    "practical": {
+      "best_season": "June–September",
+      "how_to_get_there": "By car from Mogilev (~35km).",
+      "what_to_bring": "SUP board or kayak, sunscreen."
+    },
+    "coordinates": { "lat": 53.7667, "lng": 30.1833 }
+  },
+  {
+    "id": 16,
+    "name": "Murovanka Church",
+    "region": "Grodno Region",
+    "categories": ["history"],
+    "hidden_gem": false,
+    "description": "The first time I saw Murovanka I could not quite believe it was real — a fortified medieval church that looks like it was built to survive a siege. Belarus surprises you when you let it.",
+    "practical": {
+      "best_season": "May–October",
+      "how_to_get_there": "By car from Grodno (~80km).",
+      "what_to_bring": "Camera — you will want to photograph this from every angle."
+    },
+    "coordinates": { "lat": 53.6167, "lng": 24.5667 }
+  },
+  {
+    "id": 17,
+    "name": "Krevo Castle Ruins",
+    "region": "Grodno Region",
+    "categories": ["history"],
+    "hidden_gem": false,
+    "description": "Krevo has never been restored and I think that is its greatest quality — these walls saw the Grand Duchy of Lithuania at its height, and they still carry that history without any polish over it.",
+    "practical": {
+      "best_season": "Year-round",
+      "how_to_get_there": "By car from Minsk (~100km) or Molodechno (~35km).",
+      "what_to_bring": "Good footwear — the ground is uneven."
+    },
+    "coordinates": { "lat": 54.3167, "lng": 26.2833 }
+  },
+  {
+    "id": 18,
+    "name": "Krasnoselsky Chalk Quarries",
+    "region": "Grodno Region",
+    "categories": ["nature"],
+    "hidden_gem": true,
+    "description": "I showed these quarries to a friend who thought I was taking him to a beach in Greece — the water is that colour. It is industrial, unexpected, and completely Belarusian all at once.",
+    "practical": {
+      "best_season": "June–August",
+      "how_to_get_there": "By car from Volkovysk (~10km).",
+      "what_to_bring": "Swimwear, sunscreen — the water is safe for swimming."
+    },
+    "coordinates": { "lat": 53.1333, "lng": 24.5167 }
+  },
+  {
+    "id": 19,
+    "name": "Lake Svityaz",
+    "region": "Grodno Region",
+    "categories": ["nature"],
+    "hidden_gem": true,
+    "description": "Svityaz sits quietly in the far west with clear water, old legends, and almost no crowds — I think of it as the lake Belarus keeps to itself, and I am happy to share it with you.",
+    "practical": {
+      "best_season": "June–September",
+      "how_to_get_there": "By car from Novogrudok (~30km).",
+      "what_to_bring": "Picnic, swimwear, a book."
+    },
+    "coordinates": { "lat": 53.4167, "lng": 25.8167 }
+  },
+  {
+    "id": 20,
+    "name": "Naliboki Forest",
+    "region": "Minsk Region",
+    "categories": ["adventure"],
+    "hidden_gem": false,
+    "description": "Naliboki is one of the largest forests in Belarus and I think it is one of the least appreciated — come here to hike, cycle, and remember that this country is not only about monuments.",
+    "practical": {
+      "best_season": "May–October",
+      "how_to_get_there": "By car from Minsk (~80km).",
+      "what_to_bring": "Hiking boots, bike if you have one, map."
+    },
+    "coordinates": { "lat": 53.8333, "lng": 26.7167 }
+  },
+  {
+    "id": 21,
+    "name": "Stracha River",
+    "region": "Minsk Region",
+    "categories": ["adventure"],
+    "hidden_gem": true,
+    "description": "I paddled the Stracha for the first time and did not want it to end — quiet forest, hidden lakes, and a pace that makes you forget there is anywhere else to be. One of my favourite routes in the country.",
+    "practical": {
+      "best_season": "May–September",
+      "how_to_get_there": "By car from Minsk (~70km). Kayak rentals available locally.",
+      "what_to_bring": "Kayak or canoe, waterproof bag, camping gear for multi-day."
+    },
+    "coordinates": { "lat": 54.0333, "lng": 26.9667 }
+  },
+  {
+    "id": 22,
+    "name": "Berezinsky Biosphere Reserve",
+    "region": "Minsk Region",
+    "categories": ["nature"],
+    "hidden_gem": false,
+    "description": "You will hear Berezinsky before you see it — cranes at dawn, beavers on dark rivers, a forest that has never been rushed. This is Belarus stripped back to what it was before anything was built on top of it.",
+    "practical": {
+      "best_season": "Year-round — each season is different",
+      "how_to_get_there": "By car from Minsk (~120km). Visitor centre at Domzheritsy.",
+      "what_to_bring": "Binoculars, layers, waterproof footwear."
+    },
+    "coordinates": { "lat": 54.7333, "lng": 28.1833 }
+  },
+  {
+    "id": 23,
+    "name": "Budslau Basilica",
+    "region": "Minsk Region",
+    "categories": ["culture"],
+    "hidden_gem": false,
+    "description": "Budslau is one of the clearest expressions of living pilgrimage culture in Belarus — for me it represents the heritage, history, and multiculturalism of our beautiful country.",
+    "practical": {
+      "best_season": "Year-round. Major pilgrimage in early July.",
+      "how_to_get_there": "By car from Minsk (~130km).",
+      "what_to_bring": "Respectful clothing."
+    },
+    "coordinates": { "lat": 54.7833, "lng": 26.9833 }
+  },
+  {
+    "id": 24,
+    "name": "Loshitsa Estate",
+    "region": "Minsk city",
+    "categories": ["culture"],
+    "hidden_gem": false,
+    "description": "When I want to show someone the Minsk that does not appear in guidebooks, I bring them to Loshitsa — a manor, a legend, and a park that feels worlds away from the capital's avenues.",
+    "practical": {
+      "best_season": "April–October",
+      "how_to_get_there": "By metro to Mogilevskaya, then 15 min walk.",
+      "what_to_bring": "Comfortable shoes for the park."
+    },
+    "coordinates": { "lat": 53.8500, "lng": 27.6167 }
+  },
+  {
+    "id": 25,
+    "name": "Svislach River Urban Kayak Route",
+    "region": "Minsk city",
+    "categories": ["adventure"],
+    "hidden_gem": false,
+    "description": "I grew up in Minsk and paddling the Svislach made me see my own city completely differently — from the water, it stops being Soviet and starts being a river city with its own quiet rhythm.",
+    "practical": {
+      "best_season": "May–September",
+      "how_to_get_there": "Central Minsk — kayak rental points along the river.",
+      "what_to_bring": "Sunscreen, change of clothes."
+    },
+    "coordinates": { "lat": 53.9000, "lng": 27.5667 }
+  },
+  {
+    "id": 26,
+    "name": "Tsnyanskaye Reservoir Watersports Area",
+    "region": "Minsk city",
+    "categories": ["adventure"],
+    "hidden_gem": false,
+    "description": "This is where Minsk people come to breathe — SUP boards, open water, and a suburban landscape that has its own honest charm. A side of the capital most visitors never think to look for.",
+    "practical": {
+      "best_season": "June–September",
+      "how_to_get_there": "By car or bus from central Minsk (~10km north).",
+      "what_to_bring": "SUP board or rent on site, sunscreen."
+    },
+    "coordinates": { "lat": 53.9667, "lng": 27.5833 }
+  }
+]
